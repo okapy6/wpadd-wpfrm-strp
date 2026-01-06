@@ -1,0 +1,456 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WPForms Authorize.Net 1.10.0\n"
+"Report-Msgid-Bugs-To: https://wpforms.com/support/\n"
+"Last-Translator: WPForms <support@wpforms.com>\n"
+"Language-Team: WPForms <support@wpforms.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-03-05T12:14:03+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.7.1\n"
+"X-Domain: wpforms-authorize-net\n"
+
+#. Plugin Name of the plugin
+msgid "WPForms Authorize.Net"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://wpforms.com"
+msgstr ""
+
+#. Description of the plugin
+msgid "Authorize.Net integration with WPForms."
+msgstr ""
+
+#. Author of the plugin
+msgid "WPForms"
+msgstr ""
+
+#. translators: %s - Admin area Payments settings page URL.
+#: src/Admin/AuthorizeNetPayment.php:41
+msgid "Heads up! Authorize.Net payments can't be enabled yet. First, please connect to your Authorize.Net account on the <a href=\"%s\">WPForms Settings</a> page."
+msgstr ""
+
+#: src/Admin/AuthorizeNetPayment.php:56
+msgid "To use Authorize.Net payments you need to add an Authorize.Net field to the form"
+msgstr ""
+
+#: src/Admin/AuthorizeNetPayment.php:64
+msgid "Enable Authorize.Net payments"
+msgstr ""
+
+#: src/Admin/AuthorizeNetPayment.php:78
+msgid "Payment Description"
+msgstr ""
+
+#: src/Admin/AuthorizeNetPayment.php:81
+msgid "Enter your payment description. Eg: Donation for the soccer team. Only used for standard one-time payments."
+msgstr ""
+
+#: src/Admin/AuthorizeNetPayment.php:90
+msgid "Authorize.Net Payment Receipt"
+msgstr ""
+
+#: src/Admin/AuthorizeNetPayment.php:94
+#: src/Admin/AuthorizeNetPayment.php:201
+msgid "--- Select Email ---"
+msgstr ""
+
+#: src/Admin/AuthorizeNetPayment.php:95
+msgid "If you would like to have Authorize.Net send a receipt after payment, select the email field to use. This is optional but recommended. Only used for standard one-time payments."
+msgstr ""
+
+#: src/Admin/AuthorizeNetPayment.php:104
+#: src/Admin/AuthorizeNetPayment.php:211
+msgid "Customer Name"
+msgstr ""
+
+#: src/Admin/AuthorizeNetPayment.php:108
+#: src/Admin/AuthorizeNetPayment.php:216
+msgid "--- Select Name ---"
+msgstr ""
+
+#: src/Admin/AuthorizeNetPayment.php:109
+msgid "Select the field that contains the customer's name. This field is optional."
+msgstr ""
+
+#: src/Admin/AuthorizeNetPayment.php:118
+#: src/Admin/AuthorizeNetPayment.php:226
+msgid "Customer Billing Address"
+msgstr ""
+
+#: src/Admin/AuthorizeNetPayment.php:122
+#: src/Admin/AuthorizeNetPayment.php:231
+msgid "--- Select Billing Address ---"
+msgstr ""
+
+#: src/Admin/AuthorizeNetPayment.php:123
+#: src/Admin/AuthorizeNetPayment.php:232
+msgid "Select the field that contains the customer's billing address. This field is optional."
+msgstr ""
+
+#: src/Admin/AuthorizeNetPayment.php:134
+#: src/Admin/AuthorizeNetPayment.php:244
+msgid "Process"
+msgstr ""
+
+#: src/Admin/AuthorizeNetPayment.php:135
+#: src/Admin/AuthorizeNetPayment.php:245
+msgid "Don't process"
+msgstr ""
+
+#: src/Admin/AuthorizeNetPayment.php:137
+msgid "this charge if"
+msgstr ""
+
+#: src/Admin/AuthorizeNetPayment.php:138
+msgid "Authorize.Net payment"
+msgstr ""
+
+#: src/Admin/AuthorizeNetPayment.php:142
+msgid "Subscriptions"
+msgstr ""
+
+#: src/Admin/AuthorizeNetPayment.php:149
+msgid "Enable recurring subscription payments"
+msgstr ""
+
+#: src/Admin/AuthorizeNetPayment.php:162
+msgid "Plan Name"
+msgstr ""
+
+#: src/Admin/AuthorizeNetPayment.php:166
+msgid "Enter the subscription name. Eg: Email Newsletter. Subscription period and price are automatically appended. If left empty the form name will be used."
+msgstr ""
+
+#: src/Admin/AuthorizeNetPayment.php:175
+msgid "Recurring Period"
+msgstr ""
+
+#: src/Admin/AuthorizeNetPayment.php:181
+#: src/Helpers.php:186
+msgid "Weekly"
+msgstr ""
+
+#: src/Admin/AuthorizeNetPayment.php:182
+#: src/Helpers.php:192
+msgid "Monthly"
+msgstr ""
+
+#: src/Admin/AuthorizeNetPayment.php:183
+#: src/Helpers.php:198
+msgid "Quarterly"
+msgstr ""
+
+#: src/Admin/AuthorizeNetPayment.php:184
+#: src/Helpers.php:204
+msgid "Semi-Yearly"
+msgstr ""
+
+#: src/Admin/AuthorizeNetPayment.php:185
+#: src/Helpers.php:210
+msgid "Yearly"
+msgstr ""
+
+#: src/Admin/AuthorizeNetPayment.php:187
+msgid "How often you would like the charge to recur."
+msgstr ""
+
+#: src/Admin/AuthorizeNetPayment.php:196
+msgid "Customer Email"
+msgstr ""
+
+#: src/Admin/AuthorizeNetPayment.php:202
+msgid "Select the field that contains the customer's email address. This field is required."
+msgstr ""
+
+#: src/Admin/AuthorizeNetPayment.php:217
+msgid "Select the field that contains the customer's name. This field is required."
+msgstr ""
+
+#: src/Admin/AuthorizeNetPayment.php:247
+msgid "payment as recurring if"
+msgstr ""
+
+#: src/Admin/AuthorizeNetPayment.php:248
+msgid "Authorize.Net Recurring payment"
+msgstr ""
+
+#: src/Admin/Builder.php:50
+msgid "<p>When recurring subscription payments are enabled, the Customer Email and the Customer Name are required.</p><p>To proceed, please go to <strong>Payments » Authorize.Net</strong> and select <strong>Customer Email</strong> and <strong>Customer Name</strong> fields.</p>"
+msgstr ""
+
+#: src/Admin/Builder.php:58
+msgid "<p><strong>Name</strong> field <strong>First Last</strong> format is required to be compatible with Authorize.Net.</p><p>To proceed, please change the format or select a different name field as a <strong>Customer Name</strong> in <strong>Payments » Authorize.Net</strong>.</p>"
+msgstr ""
+
+#: src/Admin/Builder.php:66
+msgid "<p>Authorize.Net Payments must be enabled when using the Authorize.Net field.</p><p>To proceed, please go to <strong>Payments » Authorize.Net</strong> and check <strong>Enable Authorize.Net payments</strong>.</p>"
+msgstr ""
+
+#: src/Admin/Builder.php:74
+msgid "<p>Authorize.Net API credentials are required to use the Authorize.Net field.</p><p>To proceed, please go to <strong>WPForms Settings » Payments » Authorize.Net</strong> and fill in <strong>API Login ID</strong> and <strong>Transaction Key</strong> fields.</p>"
+msgstr ""
+
+#: src/Admin/Builder.php:124
+msgid "Enable for Authorize.Net completed payments"
+msgstr ""
+
+#: src/Admin/Builder.php:131
+msgid "When enabled this notification will <em>only</em> be sent when a Authorize.Net payment has been successfully <strong>completed</strong>."
+msgstr ""
+
+#: src/Admin/Builder.php:139
+msgid "Authorize.Net completed payments"
+msgstr ""
+
+#: src/Admin/Entries.php:77
+#: src/Admin/Settings.php:143
+#: src/Fields/AuthorizeNet.php:23
+msgid "Authorize.Net"
+msgstr ""
+
+#: src/Admin/Settings.php:80
+#: src/Admin/Settings.php:88
+msgid "Connection Status"
+msgstr ""
+
+#: src/Admin/Settings.php:96
+msgid "Test Mode"
+msgstr ""
+
+#: src/Admin/Settings.php:97
+msgid "Prevent Authorize.Net from processing live transactions."
+msgstr ""
+
+#: src/Admin/Settings.php:104
+msgid "Test API Login ID"
+msgstr ""
+
+#: src/Admin/Settings.php:111
+msgid "Test Transaction Key"
+msgstr ""
+
+#: src/Admin/Settings.php:118
+msgid "API Login ID"
+msgstr ""
+
+#: src/Admin/Settings.php:125
+msgid "Transaction Key"
+msgstr ""
+
+#. translators: %s - WPForms.com Authorize.Net documentation article URL.
+#: src/Admin/Settings.php:148
+msgid "Easily collect credit card payments with Authorize.Net. For getting started and more information, see our <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">Authorize.Net documentation</a>."
+msgstr ""
+
+#. translators: %1$s - Authorize.Net account name connected; %2$s - Authorize.Net mode connected (live or sandbox); %3$s - indication whether it's a Test or Live mode.
+#: src/Admin/Settings.php:202
+msgid "Connected to Authorize.Net as <em>%1$s</em> in <strong>%2$s %3$s</strong> mode."
+msgstr ""
+
+#: src/Admin/Settings.php:209
+#: src/Admin/Settings.php:269
+msgid "Sandbox"
+msgstr ""
+
+#: src/Admin/Settings.php:209
+#: src/Admin/Settings.php:269
+msgid "Production"
+msgstr ""
+
+#: src/Admin/Settings.php:210
+msgid "Test"
+msgstr ""
+
+#: src/Admin/Settings.php:210
+msgid "Live"
+msgstr ""
+
+#. translators: %s - Authorize.Net Sandbox Dashboard URL.
+#: src/Admin/Settings.php:233
+msgid "Warning! Please set your <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">Sandbox account</a> into <strong>Live</strong> mode to work properly with WPForms."
+msgstr ""
+
+#. translators: %s - Authorize.Net mode connected (live or sandbox).
+#: src/Admin/Settings.php:264
+msgid "Not connected to Authorize.Net in <strong>%s</strong> mode."
+msgstr ""
+
+#: src/Admin/Settings.php:284
+msgid "Switching test/live modes requires filling API Login Key and Transaction Key fields."
+msgstr ""
+
+#: src/Admin/Settings.php:301
+msgid "You entered invalid Authorize.Net production credentials and won't be able to receive live payments."
+msgstr ""
+
+#: src/Admin/Settings.php:303
+msgid "You entered invalid Authorize.Net sandbox credentials and won't be able to test the payments."
+msgstr ""
+
+#. translators: %1$s - Selected currency on the WPForms Settings admin page.
+#: src/Admin/Settings.php:327
+msgid "<strong>Payments Cannot Be Processed</strong><br>The currency you have set (%1$s) is not supported by Authorize.Net. Please choose a different currency, or consider switching your payment gateway to Stripe."
+msgstr ""
+
+#: src/Api/Api.php:246
+msgid "Missing Authorize.Net keys."
+msgstr ""
+
+#: src/Api/Api.php:258
+msgid "Authorize.Net payment stopped, missing opaque data."
+msgstr ""
+
+#: src/Api/Api.php:272
+msgid "Missing amount."
+msgstr ""
+
+#: src/Api/Api.php:276
+msgid "Missing currency."
+msgstr ""
+
+#: src/Api/Api.php:304
+msgid "Missing subscription name."
+msgstr ""
+
+#: src/Api/Api.php:308
+msgid "Missing subscription period."
+msgstr ""
+
+#: src/Api/Api.php:312
+msgid "Missing subscription start date."
+msgstr ""
+
+#: src/Api/Api.php:326
+msgid "Missing customer first name."
+msgstr ""
+
+#: src/Api/Api.php:330
+msgid "Missing customer last name."
+msgstr ""
+
+#: src/Api/Api.php:334
+msgid "Missing customer email."
+msgstr ""
+
+#: src/Api/Api.php:348
+msgid "Missing subscription payment description."
+msgstr ""
+
+#: src/Api/Api.php:352
+msgid "Missing subscription settlement payment description."
+msgstr ""
+
+#: src/Api/Api.php:924
+#: src/Api/Api.php:958
+msgid "Authorize.Net is in test mode, empty transaction id is returned."
+msgstr ""
+
+#: src/Api/Api.php:931
+msgid "Payment was declined by Authorize.Net."
+msgstr ""
+
+#: src/Api/Api.php:965
+msgid "Subscription settlement payment was declined by Authorize.Net."
+msgstr ""
+
+#: src/Api/Api.php:1001
+msgid "Subscription creation was declined by Authorize.Net."
+msgstr ""
+
+#: src/Api/Api.php:1021
+msgid "API"
+msgstr ""
+
+#: src/Fields/AuthorizeNet.php:24
+msgid "store, ecommerce, credit card, pay, payment, debit card"
+msgstr ""
+
+#: src/Fields/AuthorizeNet.php:91
+#: src/Fields/AuthorizeNet.php:393
+msgid "Card Number"
+msgstr ""
+
+#: src/Fields/AuthorizeNet.php:114
+#: src/Fields/AuthorizeNet.php:417
+msgid "Security Code"
+msgstr ""
+
+#: src/Fields/AuthorizeNet.php:120
+msgid "Expiration month"
+msgstr ""
+
+#: src/Fields/AuthorizeNet.php:133
+#: src/Fields/AuthorizeNet.php:405
+msgid "Expiration"
+msgstr ""
+
+#: src/Fields/AuthorizeNet.php:139
+msgid "Expiration year"
+msgstr ""
+
+#: src/Fields/AuthorizeNet.php:329
+msgid "Card Number Placeholder Text"
+msgstr ""
+
+#: src/Fields/AuthorizeNet.php:346
+msgid "Security Code Placeholder Text"
+msgstr ""
+
+#: src/Fields/AuthorizeNet.php:452
+msgid "This page is insecure. Credit Card field should be used for testing purposes only."
+msgstr ""
+
+#: src/Fields/AuthorizeNet.php:458
+msgid "Credit Card field is disabled, Authorize.Net keys are missing."
+msgstr ""
+
+#: src/Fields/AuthorizeNet.php:466
+msgid "Credit Card field is disabled, Authorize.Net payments are not enabled in the form settings."
+msgstr ""
+
+#: src/Process.php:194
+msgid "Unable to process Authorize.Net payment, please try again later."
+msgstr ""
+
+#: src/Process.php:201
+msgid "Authorize.Net payment stopped by conditional logic."
+msgstr ""
+
+#: src/Process.php:210
+msgid "Authorize.Net payment stopped, missing API keys."
+msgstr ""
+
+#: src/Process.php:218
+msgid "Authorize.Net payment stopped, invalid/empty amount."
+msgstr ""
+
+#: src/Process.php:226
+msgid "Authorize.Net payment stopped, missing payment fields."
+msgstr ""
+
+#: src/Process.php:233
+msgid "Authorize.Net payment stopped, missing required subscription settings."
+msgstr ""
+
+#. translators: %s - Name of the subscription plan.
+#: src/Process.php:479
+msgid "Payment for %s"
+msgstr ""
+
+#. translators: %s - Name of the subscription plan.
+#: src/Process.php:483
+msgid "Settlement Payment for %s"
+msgstr ""
+
+#: src/Process.php:579
+msgid "Authorize.Net subscription payment stopped by error"
+msgstr ""
+
+#: src/Process.php:581
+msgid "Authorize.Net payment stopped by error"
+msgstr ""
